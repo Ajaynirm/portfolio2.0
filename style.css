@@ -284,6 +284,7 @@ section {
 }
 
 .about-pic {
+ 
   border-radius: 2rem;
 }
 
@@ -429,4 +430,22 @@ footer {
 
 footer p {
   text-align: center;
+}
+
+#prof{
+   /* Adjust the size of the circle */
+  
+  border-radius: 50px; /* This makes the element circular */
+  overflow: hidden;
+}
+
+.text-container{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+
+  font-size: 16px;
+  line-height: 1.6;
 }
